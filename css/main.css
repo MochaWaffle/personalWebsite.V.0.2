@@ -4,10 +4,11 @@
 
 */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
 body{
     /*color:red;*/
-    background-color: rgb(233, 231, 231);
+    /*background-color: rgb(233, 231, 231);*/
     text-align:center;
     margin:auto;
     font-family: 'Roboto', sans-serif;
@@ -33,7 +34,7 @@ div.text {
 	50% { background-position: 100% 50%; }
 	100% { background-position: 0px 50%; }
 }
-
+/*
 .gear {
     color:blue;
 }
@@ -43,4 +44,25 @@ div.text {
     position: absolute;
     bottom: 0;
     right: 0;
+}
+*/
+#TurboDance {	
+	width:80px;
+	height:80px;
+	object-fit: contain;
+	object-position: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/*margin-top: 50px;*/
+}
+#titleText {
+	font-size: 75px;
+}
+.container{
+	width: 60.5em;
+}
+.textSoze {
+	font-size: 14px;
+	text-transform: uppercase;
 }
