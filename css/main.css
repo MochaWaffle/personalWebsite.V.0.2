@@ -17,7 +17,7 @@ body{
 }
 
 div.text {
-	background: linear-gradient(-45deg, #1e74ff, #5967ff, #df5eff, #ffffff, #ffffff/*#fe00e0, #6355a4, #80ff00, #e89a3e*/);
+	background: linear-gradient(-45deg, #0062ff, #0015ff, #df5eff, #ffffff, #ffffff/*#fe00e0, #6355a4, #80ff00, #e89a3e*/);
 	background-size: 300%;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
@@ -81,9 +81,26 @@ div.text {
 	background-color: rgb(236, 155, 254);
 }
 .container{
-	width: 60.5em;
+	/*width: 60.5em;*/
 }
 .textSoze {
 	font-size: 14px;
 	text-transform: uppercase;
+}
+.instaIcon {
+	background: linear-gradient(145deg, #4c00ff, #e100ff, #ffbf00/*#fe00e0, #6355a4, #80ff00, #e89a3e*/);
+	padding:10%;
+	border-radius: 10px;
+}
+@media only screen and (min-width: 0px) and (max-width: 995px){
+	#titleText {font-size:56px;}
+}
+
+@media only screen and (min-width:768px) and (max-width:995px){
+	.changeTextMargin {margin-left:100%;}
+	#changeInstaMargin {margin-left:250%;}
+}
+
+@media only screen and (min-width: 1000px){
+	.textSoze {font-size: 14px;}
 }
